@@ -1,0 +1,9 @@
+
+
+<%- include("partial/header")%>
+   <ul>
+        <%users.forEach(e=>{%>
+            <li><%= e.fName%></li>
+        <%}) %>
+   </ul>
+   <%- include("partial/footer")%>
